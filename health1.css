@@ -1,0 +1,159 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.2; */
+}
+
+.container{
+box-sizing: border-box;
+border-radius:10%;
+border: 2px solid ;
+box-shadow: 6px 6px 10px 5px;
+width: 40%;
+margin-left:350px;
+margin-top: 60px;
+background-image:linear-gradient(to right,rgb(95, 194, 244),rgb(255, 220, 206));
+line-height: 1.5;
+}
+
+.box1{
+    box-sizing: border-box;
+border-radius:10%;
+/* border: px solid; */
+margin-left: 100px;
+}
+
+.box1 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(255, 242, 219);
+    margin-left: 50px;
+}
+
+.box1 form{
+    margin-left:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(62, 53, 36);
+}
+
+.box1 input[type="text"]{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 350px;
+    height: 25px;
+}
+
+.box1 input[type="text"]{
+box-shadow: 5px 5px 5px;
+border-radius: 15px;
+}
+
+.box1 input[type="submit"]{
+    margin-left: 130px;
+  background-color: rgb(255, 242, 219);
+  border-radius: 100px;
+  box-shadow: rgb(255, 242, 219);
+  color: rgb(231, 152, 16);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+}
+.box1 input[type="submit"]:hover {
+    box-shadow:rgb(255, 242, 219);
+    transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+.box2{
+    box-sizing: border-box;
+border-radius:10%;
+text-align: justify;
+/* border: px solid; */
+margin-left: 100px;
+margin-bottom: 50px;
+}
+
+.box2 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(255, 242, 219);
+    margin-left: -30px;
+    
+}
+.box2 form{
+    margin-left:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(62, 53, 36)
+}
+
+.box2 input[type="text"]{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 350px;
+    height: 25px;
+}
+.box2 input[type="text"]{
+    box-shadow: 5px 5px 5px;
+    border-radius: 15px;
+    }
+.box2 input[type="submit"]{
+margin-left: 130px;
+  background-color: rgb(255, 242, 219);
+  border-radius: 100px;
+  box-shadow: rgb(255, 242, 219);
+  color: rgb(231, 152, 16);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+}
+.box2 input[type="submit"]:hover {
+    box-shadow:rgb(255, 242, 219);
+    transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+
+    /* <!-- HTML !-->
+<button class="button-33" role="button">Button 33</button>
+
+/* CSS 
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+} */
